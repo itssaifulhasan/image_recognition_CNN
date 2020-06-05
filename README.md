@@ -12,7 +12,8 @@ As a part of developing an effective and precise vehicle make and model recognit
 
 ## Key Findings
 Our analysis suggest that CNN model 1 has a far better accuracy rate than CNN model 2 and baseline model. **CNN model 1 has accuracy score of 89.2% on the train set and 87.1% on test set**.Moreover, the accuracy rates on the test and train sets suggest that it is not an overfitted or underfired model. CNN model 1 is the CNN model with the original image dataset. Based on the results we can conclude that in our study the CNN model with original images performs better than the CNN model with augmented images and evidently from the baseline model. Therefore, **we have selected the CNN model with original images** for further evaluation.
-![graph](https://git.generalassemb.ly/saifulhasan22/capstone/tree/master/images_and_gifs/graph.png?raw=true)
+
+![graph](https://git.generalassemb.ly/saifulhasan22/capstone/blob/master/images_and_gifs/graph.png?raw=true)
 
 ## Conclusion
 Based on the results, we see that the CNN model with original images (without augmentations) performs better than other models. This means that The CNN model with original images predicts the highest number of observations correctly. The selected CNN model has managed to get an **accuracy of 89.2% on the train set and 87.1% on the test set**. In this study, our model classifies whether an observation is Toyota Camry 2007 base model or not. The input of our CNN models were raw images of cars. The investigation on the misclassification images provides some insights that we need to take into account for further improvement of the accuracy score. 
@@ -27,3 +28,17 @@ Besides, 12.7% misclassifications might be a problem if we want to predict or su
    - If possible we could feed high-resolution images as input to the models. So, it might help the model to extract the details of the cars.
 
    - Images with fewer surroundings might be much better input, but if we want to predict a vehicle with other surroundings in real-time we need to feed the model with a large number of such images.
+   
+   ## Reference
+- [1] [Keras](https://keras.io/api/preprocessing/image/)
+- [2] [Danqing Liu](https://medium.com/@danqing/a-practical-guide-to-relu-b83ca804f1f7#:~:text=ReLU%20stands%20for%20rectified%20linear,a%20type%20of%20activation%20function.&text=ReLU%20is%20the%20most%20commonly,usually%20a%20good%20first%20choice)
+- [3] [Jason Brownlee](https://machinelearningmastery.com/pooling-layers-for-convolutional-neural-networks/)
+- [4] [Pranoy Radhakrishnan](https://towardsdatascience.com/what-are-hyperparameters-and-how-to-tune-the-hyperparameters-in-a-deep-neural-network-d0604917584a)
+- [5] [Jason Brownlee](https://machinelearningmastery.com/rectified-linear-activation-function-for-deep-learning-neural-networks/#:~:text=The%20sigmoid%20activation%20function%2C%20also,value%20between%200.0%20and%201.0.)
+- [6] [Sumit Sarin](https://towardsdatascience.com/exploring-image-data-augmentation-with-keras-and-tensorflow-a8162d89b844)
+- [7] [Jason Brownlee](https://machinelearningmastery.com/how-to-configure-image-data-augmentation-when-training-deep-learning-neural-networks/)
+- [8] [vmmrdb](http://vmmrdb.cecsresearch.org/)
+- [9] [Real-Time Vehicle Make and Model Recognition System](https://www.mdpi.com/2504-4990/1/2/36/pdf)
+- [10] [Autolist](https://www.autolist.com/toyota-camry/toyota-camry-generations)
+- [11] [Understanding of Convolutional Neural Network (CNN) — Deep Learning](https://medium.com/@RaghavPrabhu/understanding-of-convolutional-neural-network-cnn-deep-learning-99760835f148)
+- [12] [Activation layer visualization](https://towardsdatascience.com/visualizing-intermediate-activation-in-convolutional-neural-networks-with-keras-260b36d60d0#:~:text=Visualizing%20intermediate%20activations%20consists%20of,output%20of%20the%20activation%20function)
