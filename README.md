@@ -12,8 +12,7 @@ As a part of developing an effective and precise vehicle make and model recognit
 
 ## Key Findings
 Our analysis suggest that CNN model 1 has a far better accuracy rate than CNN model 2 and baseline model. **CNN model 1 has accuracy score of 89.2% on the train set and 87.1% on test set**.Moreover, the accuracy rates on the test and train sets suggest that it is not an overfitted or underfired model. CNN model 1 is the CNN model with the original image dataset. Based on the results we can conclude that in our study the CNN model with original images performs better than the CNN model with augmented images and evidently from the baseline model. Therefore, **we have selected the CNN model with original images** for further evaluation.
-![graph](../presentation/15.png)
-
+![graph](https://git.generalassemb.ly/saifulhasan22/capstone/tree/master/images_and_gifs/graph.png?raw=true)
 
 ## Conclusion
 Based on the results, we see that the CNN model with original images (without augmentations) performs better than other models. This means that The CNN model with original images predicts the highest number of observations correctly. The selected CNN model has managed to get an **accuracy of 89.2% on the train set and 87.1% on the test set**. In this study, our model classifies whether an observation is Toyota Camry 2007 base model or not. The input of our CNN models were raw images of cars. The investigation on the misclassification images provides some insights that we need to take into account for further improvement of the accuracy score. 
